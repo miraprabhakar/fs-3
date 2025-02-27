@@ -1,6 +1,3 @@
-#include "unity.h"
-#include "etc_controller.h"
-#include "mock_sensor.h"  // Assuming mock functions for sensor inputs
 
 /**
  * Set up a test environment for each test case

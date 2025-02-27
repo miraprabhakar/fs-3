@@ -20,8 +20,8 @@ project(ETC)
 # Main ETC executable target
 set(SRC_CPP_FILES src/can_wrapper.cpp src/etc_controller.cpp)
 add_executable(ETC main.cpp ${SRC_CPP_FILES}
-        tests/_TEST_TEMPLATE_ETC_CONTROLLER__.h
-        tests/_TEST_TEMPLATE_ETC_CONTROLLER_.cpp)
+        tests/test_template_etc_controller.h
+        tests/test_template_etc_controller.cpp)
 target_include_directories(ETC PRIVATE mbed-os)
 target_link_libraries(ETC mbed-os)
 mbed_set_post_build(ETC)
